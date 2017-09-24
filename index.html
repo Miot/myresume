@@ -1,184 +1,67 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Zhaocan's resume</title>
-	<meta name="author" content="Mio" />
-
-
-	<link rel="stylesheet" type="text/css" href="css/javascript.fullPage.css" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<style>
-		/* Reset CSS
-		 * --------------------------------------- */
-		body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
-		form,fieldset,input,textarea,p,blockquote,th,td {
-		    padding: 0;
-		    margin: 0;
-		}
-		a{
-			text-decoration:none;
-		}
-		table {
-		    border-spacing: 0;
-		}
-		fieldset,img {
-		    border: 0;
-		}
-		address,caption,cite,code,dfn,em,strong,th,var {
-		    font-weight: normal;
-		    font-style: normal;
-		}
-		strong{
-			font-weight: bold;
-		}
-		ol,ul {
-		    list-style: none;
-		    margin:0;
-		    padding:0;
-		}
-		caption,th {
-		    text-align: left;
-
-		}
-		h1,h2,h3,h4,h5,h6 {
-		    font-weight: normal;
-		    font-size: 100%;
-		    margin:0;
-		    padding:0;
-		    color:#444;
-		}
-		q:before,q:after {
-		    content:'';
-		}
-		abbr,acronym { border: 0;
-		}
-
-
-		/* Custom CSS
-		 * --------------------------------------- */
-		body{
-			font-family: "微软雅黑";
-			color: #F2F2F2;
-		}
-		h1{
-			font-size: 6em;
-		}
-		p{
-			font-size: 2em;
-		}
-		.content{
-			position: relative;
-			top: 50%;
-			transform: translateY(-50%);
-			text-align: center;
-		}
-
-		/* Section 0
-		 * --------------------------------------- */
-		#section0{
-			background-color: #1E90FF;
-		}
-		#section0 h1{
-			color: #fff;
-		}
-		#section0 p{
-			color: #333;
-			opacity: 0.4;
-		}
-		#me {
-			 width:200px;
-			 height:200px;
-			 border:10px solid #aee2d9;
-			 -webkit-border-radius:50%;
-			 -moz-border-radius:50%;
-			 -o-border-radius:50%;
-			 border-radius:50%;
-			 overflow:hidden;
-		}
-
-		/* Section 1
-		 * --------------------------------------- */
-		#section1{
-			background-color: #32CD32;
-		}
-		#section1 h1{
-			color: #fff;
-		}
-		#section1 p{
-			opacity: 0.8;
-		}
-
-
-		/* Section 2
-		 * --------------------------------------- */
-		#section2{
-			background-color: #FF7D40;
-		}
-		#section2 h1{
-			color: #F2F2F2;
-		}
-		#section2 p{
-			opacity: 0.6;
-		}
-	</style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+  <title>mio-web前端简历</title>
+  <meta name="description" content="mio的前端简历。">
+  <link rel="stylesheet" href="src/css/page/index.css">
+  <script data-main="src/js/bulid/main" src="src/js/libs/require.js"></script>
 </head>
 <body>
+  <div id="pageContain">
 
-<div id="fullpage">
-	<div class="section " id="section0">
-		<div class="content">
-                <img id="me" src="img/me.jpg" />
-                <h1 id="title">周昭灿</h1>
+  <div class="page page1  current">
+    <div class="contain">
+      <div class="myavatar"><img class="z-depth-3" src="src/imgs/me.png"></div>
+      <h1 class="myname">Hi,我叫mio</h1>
+      <p class="subtitle">一腔热血的激情 · 一夜失眠的创意 · 一个像素的执着</p>
+      <h5>web前端工程师</h5>
+      <a data-target="modal1" class="modal-trigger btn mybtn">详细介绍</a>
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal mydatas">
+        <div class="modal-content">
+          <h6>基本资料</h6>
+          <div class="row">
+            <span class="col s12">姓名：mio</span>
+            <span class="col s12">年龄：22岁</span>
+            <span class="col s12">毕业学校：zq学院</span>
+            <span class="col s12">应聘职位：WEB前端工程师</span>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">关闭</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page page2">
+    <div class="contain">
+      <h4 class="text-center">技术专长</h4>
+      <div class="myskills text-center">
+        <a class="stress">HTML/HTML5</a>
+        <a class="stress">CSS/CSSS3</a>
+        <a class="stress">JavaScript</a>
+        <a class="stress">jQuery</a>
+        <a class="stress">PhotoShop</a>
+        <a>HBuilder</a>
+        <a class="stress">W3C标准</a>
+        <a>Git/Github客户端</a>
+        <a>AMD模块化</a>
+        <a class="stress">mySQL</a>
+      </div>
+    </div>
+  </div>
+
  
-                
-                <p><a href="mailto:imuy@foxmail.com">imuy@foxmail.com</a></p>
-		</div>
-	</div>
-	<div class="section" id="section1">
-		<div class="content">
-			<h1>888888888</h1>
-			<p>9999999999</p>
-		</div>
-	</div>
-	<div class="section" id="section2">
-		<div class="slide" id="slide1">
-			<div class="content">
-				<h1>33333333</h1>
-				<p>
-					4444444444
-				</p>
-				<p>
-		      		555555555
-				</p>
-			</div>
-		</div>
-		<div class="slide" id="slide2">
-			<div class="content">
-				<h1>666666666</h1>
-			</div>
-		</div>
-		<div class="slide" id="slide2">
-			<div class="content">
-				<h1>777777777</h1>
-			</div>
-		</div>
-	</div>
 </div>
+<ul id="navBar">
+  <li></li>
+  <li></li>
 
-<script type="text/javascript" src="javascript.fullPage.js"></script>
-<script type="text/javascript">
-	fullpage.initialize('#fullpage', {
-		anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-		menu: '#menu',
-		css3:true,
-		navigation:true,
-		navigationPosition:'right',
-		navigationColor:'#000',                         
-	});
- 
-</script>
+</ul>
 
 </body>
 </html>
