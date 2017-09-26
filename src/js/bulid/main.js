@@ -3,12 +3,14 @@ require.config({
   paths: {
       'jquery': 'libs/jquery-1.11.3.min',
       'fullpage': 'comp/fullpage',
-      'materialize': 'comp/materialize.min'
+      'materialize': 'comp/materialize.min',
+
 
   },
   shim: {
      'fullpage': ['jquery'],
-     'materialize': ['jquery']
+     'materialize': ['jquery'],
+     
   }
 })
 
@@ -32,8 +34,16 @@ require(['jquery', 'fullpage','materialize'], function($) {
     	easing : 'ease-in-out'                                // easing('ease','ease-in','ease-in-out' or use cubic-bezier like [.33, 1.81, 1, 1];
 
     });
+    
     $('.modal-trigger').leanModal({
       opacity: .1,
     });
+    
+    
   })
+  
+
+  
 })
+
+
